@@ -16,6 +16,45 @@ body {
   font-family: Arial;
   font-size: 16px;
 }
+header {
+  background-color: rgba(0,0,0,0.87);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 5px 0 rgba(0,0,0,0.2);
+}
+header .logito {
+  margin-left: 2em;
+  margin-top: 1em;
+  border-right-style: solid;
+  border-color: #0778f2;
+  padding-left: 1em;
+  padding-rigth: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  width: 150px;
+}
+header .logito .titulo strong {
+  color: #fff;
+  padding: 3 m;
+}
+header .descripcion {
+  margin-left: 4em;
+}
+header .descripcion h2 {
+  color: #fff;
+  font-size: 2.3em;
+}
+header .descripcion h2 strong {
+  color: #ff0;
+}
+header .descripcion ul {
+  color: #fff;
+}
+header .descripcion ul li p {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  font-size: 1.3em;
+}
 footer {
   background-color: #00bfff;
   bottom: 0;
@@ -108,7 +147,7 @@ footer .skills li .chrome:before {
   top: 1.1em;
 }
 .principal .botones-sociales ul {
-  margin: 0;
+  margin-left: 0;
   padding: 0;
   list-style: none;
 }
@@ -116,15 +155,19 @@ footer .skills li .chrome:before {
   border-radius: 5px;
   text-decoration: none;
   display: inline-block;
-  margin-right: 3em;
+  margin-right: 4em;
+  margin-top: 0.1em;
+}
+.principal .botones-sociales ul li a:before {
+  font-size: 6em;
 }
 .principal .botones-sociales ul li .facebook {
   border-radius: 50%;
   color: #3b5998;
   box-shadow: 5px 7px 0 #3b5998;
+  margin-left: 2em;
 }
 .principal .botones-sociales ul li .facebook:before {
-  font-size: 8em;
   font-family: icomoon;
   content: "\e601";
 }
@@ -134,7 +177,6 @@ footer .skills li .chrome:before {
   box-shadow: 5px 7px 0 rgba(211,72,54,0.9);
 }
 .principal .botones-sociales ul li .g-plus:before {
-  font-size: 8em;
   font-family: icomoon;
   content: "\e600";
 }
@@ -144,7 +186,6 @@ footer .skills li .chrome:before {
   box-shadow: 5px 7px 0 #00bfff;
 }
 .principal .botones-sociales ul li .twitter:before {
-  font-size: 8em;
   font-family: icomoon;
   content: "\e602";
 }
@@ -152,7 +193,6 @@ footer .skills li .chrome:before {
   color: #f00;
 }
 .principal .botones-sociales ul li .youtube:before {
-  font-size: 8em;
   font-family: icomoon;
   content: "\e603";
 }
@@ -163,7 +203,6 @@ footer .skills li .chrome:before {
   box-shadow: 5px 7px 0 #000;
 }
 .principal .botones-sociales ul li .github:before {
-  font-size: 8em;
   font-family: icomoon;
   content: "\e604";
 }
